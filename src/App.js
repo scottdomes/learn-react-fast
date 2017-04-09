@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Tweet from './Tweet'
 
 class App extends Component {
   state = { tweets: [], loading: true }
@@ -37,18 +38,7 @@ class App extends Component {
         {
           this.state.tweets.map(tweet => {
             return (
-              <div className="tweet" key={tweet.id}>
-                <button className="hide" onClick={this.handleHideTweet.bind(this, tweet.id)}>Hide</button>
-                <img className="profile" alt="Profile" src={tweet.profile_pic_url} />
-                <div className="tweet-body">
-                  <div className="name-fields">
-                    <h1>{tweet.full_name}</h1>
-                    <h2>@{tweet.username}</h2>
-                  </div>
-                  <p>{tweet.text}</p>
-                  <img className="attached" src={tweet.attached_image} alt="Attached" />
-                </div>
-              </div>
+              <Tweet tweet={tweet} key={tweet.id} onHideTweet={this.handleHideTweet.bind(this, tweet.id)}/>
             )
           })
         }
