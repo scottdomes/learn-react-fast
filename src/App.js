@@ -44,6 +44,9 @@ class App extends Component {
             )
           })
         }
+        <div id="load-more-container">
+          <button id="load-more">Load More Tweets</button>
+        </div>
       </div>
     );
   }

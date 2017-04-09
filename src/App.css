@@ -67,6 +67,27 @@ body {
   border-radius: 5px;
 }
 
+#load-more-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button#load-more {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: 1px solid rgb(59, 136, 195);
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+button#load-more:hover {
+  cursor: pointer;
+  opacity: .75;
+}
+
 @-webkit-keyframes uil-ring-anim {
   0% {
     -ms-transform: rotate(0deg);
