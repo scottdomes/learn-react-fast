@@ -15,6 +15,13 @@ class App extends Component {
     }, 2000)
   }
 
+  handleHideTweet(id) {
+    const newTweets = this.state.tweets.filter(tweet => {
+      return tweet.id !== id
+    })
+    this.setState({ tweets: newTweets })
+  }
+
   render() {
     if (this.state.loading) {
       return (
@@ -31,6 +38,7 @@ class App extends Component {
           this.state.tweets.map(tweet => {
             return (
               <div className="tweet" key={tweet.id}>
+                <button className="hide" onClick={this.handleHideTweet.bind(this, tweet.id)}>Hide</button>
                 <img className="profile" alt="Profile" src={tweet.profile_pic_url} />
                 <div className="tweet-body">
                   <div className="name-fields">
@@ -44,9 +52,6 @@ class App extends Component {
             )
           })
         }
-        <div id="load-more-container">
-          <button id="load-more">Load More Tweets</button>
-        </div>
       </div>
     );
   }

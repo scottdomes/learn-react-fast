@@ -23,11 +23,6 @@ body {
   padding: 9px 12px;
 }
 
-.tweet:hover {
-  cursor: pointer;
-  background-color: #f5f8fa;
-}
-
 .tweet img.profile {
   border-radius: 5px;
   width: 48px;
@@ -67,23 +62,18 @@ body {
   border-radius: 5px;
 }
 
-#load-more-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-button#load-more {
+button.hide {
+  position: absolute;
+  top: 9px;
+  right: 12px;
   background-color: rgb(29, 161, 242);
   color: white;
   border: 1px solid rgb(59, 136, 195);
   box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset;
-  margin: 20px auto;
-  padding: 10px;
-  font-size: 14px;
+  font-size: 11px;
 }
 
-button#load-more:hover {
+button.hide:hover {
   cursor: pointer;
   opacity: .75;
 }
