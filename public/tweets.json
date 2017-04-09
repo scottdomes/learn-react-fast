@@ -1,0 +1,43 @@
+{
+  "tweets": [
+    {
+      "id": "1",
+      "profile_pic_url": "https://pbs.twimg.com/profile_images/826296466499002372/-ZYNf7c-_bigger.jpg",
+      "full_name": "Scott Domes",
+      "username": "scottdomes",
+      "text": "Learned today you can destructure arrays as well as objects in ES6! Taken from https://muse.to/wMV5U7  by @AirbnbEng. #javascript #es6",
+      "attached_image": "https://pbs.twimg.com/media/C790NIhUwAExsQk.jpg"
+    },
+    {
+      "id": "2",
+      "profile_pic_url": "https://pbs.twimg.com/profile_images/826296466499002372/-ZYNf7c-_bigger.jpg",
+      "full_name": "Scott Domes",
+      "username": "scottdomes",
+      "text": "shouldComponentUpdate is your secret weapon for React performance. Learn how to use it here: https://muse.to/RZaBvK  #reactjs #javascript",
+      "attached_image": "https://pbs.twimg.com/media/C8Gxr-lVwAAHJGo.jpg"
+    },
+    {
+      "id": "3",
+      "profile_pic_url": "https://pbs.twimg.com/profile_images/826296466499002372/-ZYNf7c-_bigger.jpg",
+      "full_name": "Scott Domes",
+      "username": "scottdomes",
+      "text": "React lifecycle methods- how and when to use them: https://medium.com/@scottdomes/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1 … #reactjs #javascript #reactnative #reactconf",
+      "attached_image": "https://pbs.twimg.com/media/C8BMor9VYAAu_T3.jpg"
+    },
+    {
+      "id": "4",
+      "profile_pic_url": "https://pbs.twimg.com/profile_images/826296466499002372/-ZYNf7c-_bigger.jpg",
+      "full_name": "Scott Domes",
+      "username": "scottdomes",
+      "text": "One of the biggest gotchas in #reactjs: setState is asynchronous! But you can pass a callback as 2nd arg to be called when state updates:",
+      "attached_image": "https://pbs.twimg.com/media/C52yAYAUsAACQmd.jpg"
+    },{
+      "id": "5",
+      "profile_pic_url": "https://pbs.twimg.com/profile_images/826296466499002372/-ZYNf7c-_bigger.jpg",
+      "full_name": "Scott Domes",
+      "username": "scottdomes",
+      "text": "Got a #reactjs component that only returns a bit of JSX? Use fat arrow implicit return to save some typing. #javascript",
+      "attached_image": "https://pbs.twimg.com/media/C5tFTFdU4AEfMJe.jpg"
+    }
+  ]
+}
